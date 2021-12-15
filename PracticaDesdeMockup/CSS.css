@@ -1,25 +1,45 @@
 body{
     display: grid;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 3fr 1fr;
     background-repeat: no-repeat;
     background-image: url(young-traveler.jpg);
     background-attachment: fixed;
     background-position: right top;
-    background-size: 70%;
+    background-size: 75%;
     background-color: black;
-    width:90%;
-    margin: 0 auto;
-    min-width:600px;
-    max-width:2000px
-    
+    height: 1000px;
 }
 
 
 main{
     color: white;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
     
+    
+    
+}
+
+.contenidoPrincipal{
+    padding-left: 150px;
+    padding-top: 250px;
+    padding-right: 1210px;
+}
+
+#h1{
+    font-size: 70px;
+
+}
+
+
+.botonBook{
+    background-color: orangered;
+    height: 60px;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+}
+
+.menu{
+    padding-left: 113px;
 }
 
 li{
@@ -29,26 +49,32 @@ li{
 
 footer{
     display: grid;
-    grid-template-columns: 3fr;
-    grid-template-rows: 1fr;
-    display: flex;
-  
+    grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 #izq{
     background-color: grey;
     color: black;
-    width: 33.3%;
+    
+    padding-top: 2cm;
+    text-align: center;
 }
 
 #centro{
     background-color: white;
     color: black;
-    width: 33.3%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top : 20px;
+    padding-bottom: 20px;
 }
 
 #der{
     background-color: orangered;
-    color: black;
-    width: 33.3%;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top : 20px;
+    padding-bottom: 20px;
 }
