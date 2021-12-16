@@ -20,7 +20,7 @@ main{
 
 .contenidoPrincipal{
     padding-left: 150px;
-    padding-top: 250px;
+    padding-top: 140px;
     padding-right: 1210px;
 }
 
@@ -40,11 +40,19 @@ main{
 
 .menu{
     padding-left: 113px;
+    margin-top: 2cm;
 }
 
 li{
     list-style: none;
     display: inline;
+}
+
+li a{
+    color: white;
+    margin-right: 2cm;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 footer{
